@@ -127,6 +127,12 @@ a{
     font-size: 18px;
 }
 
+.buttonstart button:hover{
+    background-color: #49d5ff;
+    cursor: pointer;
+}
+
+
 .back{
     /* Volver atrás */
         position: absolute;
