@@ -1,0 +1,146 @@
+body{
+    background-color: #0A3868;
+    font-family: 'Quicksand', sans-serif;
+    color: #FFFFFF;
+}
+
+a{
+    color: #0BC6FE;
+}
+
+.line1{
+    /* Line 1 */
+        position: absolute;
+        width: 50px;
+        height: 0px;
+        left: 1310px;
+        top: 39px;
+    
+        /* Text 2 */
+        border: 2px solid #FFFFFF;
+}
+
+.line2{
+    /* Line 2 */
+        position: absolute;
+        width: 50px;
+        height: 0px;
+        left: 1310px;
+        top: 55px;
+    
+        /* Text 2 */
+        border: 2px solid #FFFFFF;
+}
+
+.line3{
+    /* Line 3 */
+        position: absolute;
+        width: 50px;
+        height: 0px;
+        left: 1310px;
+        top: 71px;
+    
+        /* Text 2 */
+    
+        border: 2px solid #FFFFFF;
+}
+
+.logo{
+    /* logo 1 */
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 583px;
+        top: 200px;
+}
+
+.magister{
+    /* Magister */
+        position: absolute;
+        width: 169px;
+        height: 50px;
+        left: 689px;
+        top: 212px;
+    
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        /* identical to box height */
+        text-align: center;
+        color: #FFFFFF;
+}
+
+.comencemos{
+    position: absolute;
+    width: 700px;
+    height: 70px;
+    left: 371px;
+    top: 373px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    /* identical to box height, or 146% */
+
+    letter-spacing: -1px;
+}
+
+.pagraph{
+    position: absolute;
+    width: 334px;
+    height: 104px;
+    left: 553px;
+    top: 499px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    /* or 108% */
+
+    text-align: center;
+}
+
+.buttonstart{
+    position: absolute;
+    width: 334px;
+    height: 104px;
+    left: 650px;
+    top: 732px;
+}
+
+.buttonstart button{
+    background-color: #0BC6FE;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.back{
+    /* Volver atrás */
+        position: absolute;
+        left: 670px;
+        top: 792px;
+    
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        text-align: center;
+    
+        /* Principal - call */
+        color: #0BC6FE;
+}
