@@ -145,8 +145,5 @@ a{
         font-size: 18px;
         line-height: 22px;
         /* identical to box height */
-        text-align: center;
-    
-        /* Principal - call */
-        color: #0BC6FE;
+        text-align: center;   
 }
