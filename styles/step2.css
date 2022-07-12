@@ -1,11 +1,84 @@
+.btnazul {
+    font-family: 'Quicksand';
+    font-weight: 700;
+    border: 1px solid #577294;
+    border-radius: 10px;
+    padding: 10px 65px;
+    /* Principal - call */
+    background: #ffffff;
+}
 
+.fondoblanco h2 {
+    position: absolute;
+    left: 170px;
+    width: 500px;
+    text-align: center;
+    line-height: 40px;
+}
 
+.steplist .step1{
+    color: #577294;
+    font-weight: 700;
+}
+.steplist .step2{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.modalidad, .opcion{
+    position: absolute;
+    width: 221px;
+    height: 52px;
+    left: 120px;
+    top: 310px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    /* Tipo */
+    color: #577294;
+}
+
+.opcion{
+    font-weight: 400;
+    top: 340px;
+}
+
+.online{
+    position: absolute;
+    width: 290px;
+    height: 50px;
+    left: 120px;
+    top: 400px;
+}
+.semipresencial{
+    position: absolute;
+    width: 290px;
+    height: 52px;
+    left: 480px;
+    top: 470px;
+}
+.presencialmañanas{
+    position: absolute;
+    width: 290px;
+    height: 52px;
+    left: 480px;
+    top: 400px;
+}
+.presencialtardes{
+    position: absolute;
+    width: 290px;
+    height: 52px;
+    left: 120px;
+    top: 470px;
+}
 
 .btnsiguiente {
-    position: relative;
-    left: 50px;
-    top: 280px;
-    bottom: 0%;
+    position: absolute;
+    left: 330px;
+    top: 1050px;
     font-family: 'Quicksand';
     font-weight: 700;
     border: 1px solid #36d0ff;
@@ -18,4 +91,50 @@
 .btnsiguiente:hover {
     cursor: pointer;
     background: #36d0ff;
+}
+
+.horario{
+    top: 600px;
+}
+
+.opcionhorario{
+    top: 630px;
+}
+
+
+.selecthorario{
+    position: absolute;
+    width: 660px;
+    height: 48px;
+    top: 670px;
+    left: 120px;
+    border-radius: 10px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Tipo */
+
+    color: #577294;
+}
+
+.horario2{
+    top: 730px;
+}
+.horario3{
+    top: 790px;
+}
+
+.volver{
+    position: absolute;
+    width: 100px;
+    top: 1100px;
+    left: 380px;
 }

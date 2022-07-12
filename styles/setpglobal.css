@@ -124,14 +124,13 @@
     height: 0px;
     left: 4.3px;
     top: 61px;
-
     /* Tipo */
 
     border: 2px solid #577294;
     transform: rotate(90deg);
 }
 
-.linea2 { top: 122px;}
+.linea2 { top: 120px;}
 .linea3 { top: 184px;}
 .linea4 { top: 248px;}
 .linea5 { top: 310px;}
