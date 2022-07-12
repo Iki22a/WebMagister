@@ -1,0 +1,41 @@
+.steplist .step1{
+    color: #577294;
+    font-weight: 700;
+}
+
+.steplist .step6{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.fondoblanco h2 {
+    left: 330px;
+    width: 300px;
+}
+
+.btnsiguiente {
+    position: absolute;
+    left: 330px;
+    top: 1000px;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    border: 1px solid #36d0ff;
+    border-radius: 10px;
+    padding: 10px 65px;
+    /* Principal - call */
+    background: #0BC6FE;
+}
+
+.btnsiguiente:hover {
+    cursor: pointer;
+    background: #36d0ff;
+}
+
+.volver {
+    position: absolute;
+    width: 100px;
+    top: 1050px;
+    left: 380px;
+}
+
+

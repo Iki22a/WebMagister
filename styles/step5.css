@@ -1,0 +1,171 @@
+.steplist .step1 {
+    color: #577294;
+    font-weight: 700;
+}
+
+.steplist .step5 {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.fondoblanco h2 {
+    left: 330px;
+    width: 300px;
+}
+
+.btnsiguiente {
+    position: absolute;
+    left: 330px;
+    top: 1000px;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    border: 1px solid #36d0ff;
+    border-radius: 10px;
+    padding: 10px 65px;
+    /* Principal - call */
+    background: #0BC6FE;
+}
+
+.btnsiguiente:hover {
+    cursor: pointer;
+    background: #36d0ff;
+}
+
+.volver {
+    position: absolute;
+    width: 100px;
+    top: 1050px;
+    left: 380px;
+}
+
+.ciudad{
+    position: absolute;
+    width: 600px;
+    height: 52px;
+    left: 120px;
+    top: 280px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    /* Tipo */
+
+    color: #577294;
+}
+
+.ciudad select{
+    width: 640px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #8aa7ca;
+    padding: 5px 10px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* Tipo */
+
+    color: #577294;
+}
+
+.direccion input{
+    width: 620px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #577294;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* Tipo */
+
+    color: #577294;
+}
+
+.direccion, .cp, .localidad, .provincia{
+    position: absolute;
+    width: 221px;
+    height: 52px;
+    left: 120px;
+    top: 400px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* Tipo */
+
+    color: #577294;
+}
+
+.cp input,
+.localidad input,
+.provincia input{
+    width: 180px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #577294;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #577294;
+}
+.localidad{
+    top: 500px;
+}
+.provincia {
+    top: 500px;
+    left: 340px;
+}
+
+.cp {
+    top: 500px;
+    left: 560px;
+}
+
+.privacidad{
+    position: absolute;
+    width: 300px;
+    height: 25px;
+    left: 120px;
+    top: 620px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: -1px;
+
+    /* Tipo */
+
+    color: #577294;
+}
+.proteccion{
+    position: absolute;
+    width: 300px;
+    height: 25px;
+    left: 470px;
+    top: 620px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #577294;
+}

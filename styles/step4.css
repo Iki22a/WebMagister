@@ -1,0 +1,140 @@
+.steplist .step1 {
+    color: #577294;
+    font-weight: 700;
+}
+
+.steplist .step4 {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.fondoblanco h2{
+    left: 300px;
+    width: 300px;
+}
+
+.btnsiguiente {
+    position: absolute;
+    left: 330px;
+    top: 900px;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    border: 1px solid #36d0ff;
+    border-radius: 10px;
+    padding: 10px 65px;
+    /* Principal - call */
+    background: #0BC6FE;
+}
+
+.btnsiguiente:hover {
+    cursor: pointer;
+    background: #36d0ff;
+}
+
+.volver {
+    position: absolute;
+    width: 100px;
+    top: 950px;
+    left: 380px;
+}
+
+.nombre{
+    position: absolute;
+    width: 220px;
+    height: 26px;
+    left: 120px;
+    top: 392px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    /* Tipo */
+
+    color: #577294;
+}
+
+
+
+
+.dni{
+    position: absolute;
+    width: 220px;
+    height: 26px;
+    left: 120px;
+    top: 500px;
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    /* Tipo */
+
+    color: #577294;
+}
+
+.movil {
+    position: absolute;
+    width: 200px;
+    height: 26px;
+    left: 350px;
+    top: 500px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    /* Tipo */
+
+    color: #577294;
+}
+
+.email{
+    position: absolute;
+    width: 220px;
+    height: 26px;
+    left: 580px;
+    top: 500px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    /* Tipo */
+
+    color: #577294;
+
+} 
+
+.email input, .movil input, .dni input, .nombre input{
+    position: absolute;
+    width: 188px;
+    height: 26px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    /* identical to box height, or 162% */
+
+    display: flex;
+    align-items: center;
+
+    /* Tipo */
+
+    color: #577294;
+
+    opacity: 0.4;
+}
+
+.nombre input{
+    width: 649px;
+}

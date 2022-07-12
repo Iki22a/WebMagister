@@ -1,0 +1,29 @@
+.gracias{
+    position: absolute;
+    width: 800px;
+    height: 140px;
+    left: 320px;
+    top: 300px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    /* or 146% */
+
+    text-align: center;
+
+    /* Text 2 */
+
+    color: #FFFFFF;
+}
+
+.pagraph{
+    width: 650px;
+    left: 400px;
+}
+
+.buttonstart{
+    left: 635px;
+}
