@@ -1,0 +1,83 @@
+.btnazul {
+    font-family: 'Quicksand';
+    font-weight: 700;
+    border: 1px solid #577294;
+    border-radius: 10px;
+    padding: 10px 65px;
+    /* Principal - call */
+    background: #ffffff;
+}
+
+.step2, .step1{
+    color: #577294;
+    font-weight: 700;
+}
+
+.steplist .step3 {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.tarifas, .opcionhorario{
+    position: absolute;
+    width: 221px;
+    height: 52px;
+    left: 120px;
+    top: 280px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    /* Tipo */
+
+    color: #577294;
+}
+
+.opcionhorario{
+    font-weight: 400;
+    top: 310px;
+}
+
+.matriculamensualidad, .mensualidad, .matricula{
+    position: absolute;
+    width: 500px;
+    height: 52px;
+    left: 120px;
+    top: 350px;
+}
+
+.mensualidad{
+    top: 420px;
+}
+
+.matriculamensualidad{
+    top: 490px;
+}
+
+.btnsiguiente {
+    position: absolute;
+    left: 280px;
+    top: 700px;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    border: 1px solid #36d0ff;
+    border-radius: 10px;
+    padding: 10px 65px;
+    /* Principal - call */
+    background: #0BC6FE;
+}
+
+.btnsiguiente:hover {
+    cursor: pointer;
+    background: #36d0ff;
+}
+
+
+.volver {
+    position: absolute;
+    width: 100px;
+    top: 750px;
+    left: 330px;
+}

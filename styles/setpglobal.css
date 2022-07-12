@@ -120,17 +120,17 @@
 
 .linea1, .linea2, .linea3, .linea4, .linea5 {
     position: absolute;
-    width: 46px;
+    width: 42px;
     height: 0px;
-    left: 4.3px;
-    top: 61px;
+    left: 6px;
+    top: 58px;
     /* Tipo */
 
     border: 2px solid #577294;
     transform: rotate(90deg);
 }
 
-.linea2 { top: 120px;}
+.linea2 { top: 122px;}
 .linea3 { top: 184px;}
 .linea4 { top: 248px;}
 .linea5 { top: 310px;}
