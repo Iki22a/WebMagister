@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.doscol {
+    width: 100%;
+    height: 100%;
+}
+
+.fondoazul {
+    position: absolute;
+    width: 499px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+
+    background: #0A3868;
+    color: #FFFFFF;
+}
+
+.fondoblanco {
+    position: absolute;
+    height: 1024px;
+    left: 520px;
+
+    background: rgba(255, 253, 249, 0.5);
+    color: #0A3868;
+}
+
+.line1 {
+    position: absolute;
+    width: 50px;
+    height: 0px;
+    left: 750px;
+    top: 42px;
+    border: 2px solid #333333;
+}
+
+.line2 {
+    position: absolute;
+    width: 50px;
+    height: 0px;
+    left: 750px;
+    top: 58px;
+    border: 2px solid #333333;
+}
+
+.line3 {
+    position: absolute;
+    width: 50px;
+    height: 0px;
+    left: 750px;
+    top: 74px;
+    border: 2px solid #0A3868;
+}
+
+.logo {
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo h1 {
+    margin-top: 60px;
+}
+
+.steps {
+    position: absolute;
+    width: 100%;
+    height: 388px;
+    left: 111px;
+    top: 245px;
+}
+
+.steplist li {
+    padding: 20px;
+    font-size: 18px;
+    list-style: none;
+}
+
+.steplist .step2,
+.steplist .step3,
+.steplist .step4,
+.steplist .step5,
+.steplist .step6 {
+    color: #577294;
+    font-weight: 700;
+}
+
+.steplist svg {
+    margin-right: 20px;
+}
+
+.dibujo {
+    margin: -10px;
+    background-color: #0A3868;
+}
+
+.fondoblanco h2 {
+    position: absolute;
+    width: 551px;
+    height: 70px;
+    left: 220px;
+    top: 147px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #577294;
+}
+
+
+.linea1, .linea2, .linea3, .linea4, .linea5 {
+    position: absolute;
+    width: 46px;
+    height: 0px;
+    left: 4.3px;
+    top: 61px;
+
+    /* Tipo */
+
+    border: 2px solid #577294;
+    transform: rotate(90deg);
+}
+
+.linea2 { top: 122px;}
+.linea3 { top: 184px;}
+.linea4 { top: 248px;}
+.linea5 { top: 310px;}

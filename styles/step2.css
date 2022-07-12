@@ -1,0 +1,21 @@
+
+
+
+.btnsiguiente {
+    position: relative;
+    left: 50px;
+    top: 280px;
+    bottom: 0%;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    border: 1px solid #36d0ff;
+    border-radius: 10px;
+    padding: 10px 65px;
+    /* Principal - call */
+    background: #0BC6FE;
+}
+
+.btnsiguiente:hover {
+    cursor: pointer;
+    background: #36d0ff;
+}
