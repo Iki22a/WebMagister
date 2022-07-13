@@ -25,7 +25,15 @@
     top: 0%;
     bottom: 0%;
     width: 210px;
+    height: 38px;
     background: #FFFFFF;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
     /* Tipo */
     border: 1px solid #577294;
     /* Dropshadow 1 */

@@ -24,5 +24,7 @@ const db = getFirestore();
 
 export const getRama = () => getDocs(collection(db, 'ramas'))
 export const getProvincia = () =>getDocs(collection(db, 'provincias'))
+export const getHorario = () =>getDocs(collection(db, 'horarios'))
+export const getCA = () =>getDocs(collection(db, 'comunidades'))
 
 

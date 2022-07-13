@@ -39,7 +39,7 @@
     left: 380px;
 }
 
-.ciudad{
+.comunidad{
     position: absolute;
     width: 600px;
     height: 52px;
@@ -56,7 +56,7 @@
     color: #577294;
 }
 
-.ciudad select{
+.comunidad select{
     width: 640px;
     height: 40px;
     border-radius: 10px;
