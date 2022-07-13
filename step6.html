@@ -275,46 +275,47 @@
             <h2>Forma de pago</h2>
             <div class="form">
                 <p class="pago">¿Cómo prefieres abonar tu primer pago?</p>
-                <button class="btnazul mensualidad">
+                <button class="btnazul tarjeta">
                     <label for="pago">Tarjeta de credito (Recomendado)</label>
                     <input type="radio" id="pago" name="pago" value="pago">
                 </button>
-                <button class="btnazul mensualidad">
+                <button class="btnazul transferencia">
                     <label for="pago">Transferencia bancaria</label>
                     <input type="radio" id="pago" name="pago" value="pago">
                 </button>
 
                 <br>
-
+                <div class="detalles">
                 <a href="#">Detalles sobre forma de pago y proceso post pago</a><svg width="18" height="18" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M20.0607 13.0607C20.6464 12.4749 20.6464 11.5251 20.0607 10.9393L10.5147 1.3934C9.92893 0.807611 8.97919 0.807611 8.3934 1.3934C7.80761 1.97919 7.80761 2.92893 8.3934 3.51472L16.8787 12L8.3934 20.4853C7.80761 21.0711 7.80761 22.0208 8.3934 22.6066C8.97919 23.1924 9.92893 23.1924 10.5147 22.6066L20.0607 13.0607ZM0 13.5H19V10.5H0V13.5Z"
                         fill="#0BC6FE" />
                 </svg>
-
-                <p class="pago">¿Vienes recomendado por alguien?</p>
-                <button class="btnazul mensualidad">
+                </div>
+                <p class="recomendado">¿Vienes recomendado por alguien?</p>
+                
+                <button class="btnazul si">
                     <label for="recomendado">Si</label>
                     <input type="radio" id="recomendado" name="recomendado" value="recomendado">
                 </button>
-                <button class="btnazul mensualidad">
+                <button class="btnazul no">
                     <label for="recomendado">No</label>
                     <input type="radio" id="recomendado" name="recomendado" value="recomendado">
                 </button>
 
                 <br>
 
-                <a href="#">Ver información legal</a><svg width="18" height="18" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <a class="info" href="#">Ver información legal<svg width="18" height="18" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M20.0607 13.0607C20.6464 12.4749 20.6464 11.5251 20.0607 10.9393L10.5147 1.3934C9.92893 0.807611 8.97919 0.807611 8.3934 1.3934C7.80761 1.97919 7.80761 2.92893 8.3934 3.51472L16.8787 12L8.3934 20.4853C7.80761 21.0711 7.80761 22.0208 8.3934 22.6066C8.97919 23.1924 9.92893 23.1924 10.5147 22.6066L20.0607 13.0607ZM0 13.5H19V10.5H0V13.5Z"
                         fill="#0BC6FE" />
-                </svg>
+                </svg></a>
 
                 <a href="gracias.html"><button class="btnsiguiente">Siguiente</button></a><br>
                 <a class="volver" href="step5.html">Volver atras</a>
             </div>
         </div>
     </div>
+    <script type="module" src="index.js"></script>
 </body>
-
 </html>

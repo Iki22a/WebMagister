@@ -15,7 +15,7 @@
 
 .steplist .step3 {
     color: #ffffff;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .tarifas, .opcionhorario{
@@ -67,6 +67,7 @@
     padding: 10px 65px;
     /* Principal - call */
     background: #0BC6FE;
+    color: #FFFFFF;
 }
 
 .btnsiguiente:hover {

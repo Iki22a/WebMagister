@@ -5,7 +5,7 @@
 
 .steplist .step6{
     color: #ffffff;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .fondoblanco h2 {
@@ -24,6 +24,7 @@
     padding: 10px 65px;
     /* Principal - call */
     background: #0BC6FE;
+    color: #FFFFFF;
 }
 
 .btnsiguiente:hover {
@@ -38,4 +39,122 @@
     left: 380px;
 }
 
+.pago{
+    position: absolute;
+    width: 450px;
+    height: 26px;
+    left: 120px;
+    top: 324px;
 
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #577294;
+}
+
+.tarjeta, .transferencia{
+    position: absolute;
+    width: 320px;
+    height: 35px;
+    left: 120px;
+    top: 360px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    background: #FFFFFF;
+    /* Tipo */
+
+    border: 1px solid #577294;
+    border-radius: 10px;
+
+    color: #577294;
+}
+
+.transferencia{
+    left: 450px;
+}
+
+.detalles{
+    position: absolute;
+    width: 480px;
+    height: 26px;
+    left: 120px;
+    top: 400px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.recomendado{
+    position: absolute;
+    width: 450px;
+    height: 26px;
+    left: 120px;
+    top: 550px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #577294;
+}
+
+.si, .no{
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    left: 280px;
+    top: 590px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    background: #FFFFFF;
+    /* Tipo */
+
+    border: 1px solid #577294;
+    border-radius: 10px;
+
+    color: #577294;
+}
+
+.no{
+    left: 120px;
+}
+
+.info{
+    position: absolute;
+    width: 230px;
+    height: 23px;
+    left: 120px;
+    top: 670px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Principal - call */
+
+    color: #0BC6FE;
+
+}
