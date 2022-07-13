@@ -20,6 +20,7 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
+// Firestore Database connection
 const db = getFirestore();
 
 export const getRama = () => getDocs(collection(db, 'ramas'))

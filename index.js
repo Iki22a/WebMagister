@@ -1,4 +1,4 @@
-import { getProvincia, getRama, getHorario, getCA} from './firebase.js'
+import {getProvincia, getRama, getHorario, getCA} from './firebase.js'
 
 //muestra los datos de la coleccion ramas en el select Rama.
 const selectRama = document.getElementById('rama')
@@ -80,7 +80,6 @@ window.addEventListener('DOMContentLoaded', async () => {
     const querySnapshot = await getCA();
     let html = ''
     querySnapshot.forEach(doc => {
-        console.log(doc.data())
         const comunidad = doc.data()
         html +=
             `<option value="comunidad" disabled selected>Ej: Madrid</option>
