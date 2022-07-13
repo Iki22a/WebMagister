@@ -1,14 +1,15 @@
-# Webpack Starter
+### Para ejecutar el proyecto:
 
-Este es el proyecto inicial para crear aplicaciones utilizando webpack.
+  - primero instalamos node.js
+  - Y tambien instalamos VScode y dentro de este instalamos la extension liverServer
 
 ### Notas:
-Recuerden reconstruir los módulos de Node
+Recuerden reconstruir los módulos de Node de los archivos package.json
 ```
-npm install
+npm install --save
 ```
 
-Y para construir el build, recueren:
+
 ```
-npm run build
+ejecutamos el proyecto abriendo el index.html y con click derecho en VScode dando en la opcion "open with liveserver"
 ```
