@@ -1,7 +1,7 @@
 ### Para ejecutar el proyecto:
 
   - primero instalamos node.js
-  - Y tambien instalamos VScode y dentro de este instalamos la extension liverServer
+  - Y tambien instalamos VScode y dentro de este instalamos la extension liveServer
 
 ### Notas:
 Recuerden reconstruir los módulos de Node de los archivos package.json
