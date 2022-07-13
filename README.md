@@ -4,9 +4,11 @@
   - Y tambien instalamos VScode y dentro de este instalamos la extension liveServer
 
 ### Notas:
-Recuerden reconstruir los módulos de Node de los archivos package.json
+Recuerden reconstruir los módulos de Node de los archivos package.json para usar las dependencias
+
 ```
 npm install --save
 ```
 
 ejecutamos el proyecto abriendo el index.html y con click derecho en VScode dando en la opcion "open with liveserver"
+
