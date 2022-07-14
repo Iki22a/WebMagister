@@ -1,4 +1,4 @@
-import {getProvincia, getRama, getHorario, getCA} from './firebase.js'
+import {getProvincia, getRama, getHorario, getCA, savedata} from './firebase.js'
 
 //muestra los datos de la coleccion ramas en el select Rama.
 const selectRama = document.getElementById('rama')
@@ -9,8 +9,8 @@ window.addEventListener('DOMContentLoaded', async ()=>{
         //console.log(doc.data())
         const rama = doc.data()
         html +=
-        `<option value="">${rama.rama1}</option>
-        <option value="">${rama.rama2}</option>`
+        `<option value="Frontend">${rama.rama1}</option>
+        <option value="Backend">${rama.rama2}</option>`
     })
 
     selectRama.innerHTML = html
@@ -25,8 +25,8 @@ window.addEventListener('DOMContentLoaded', async() =>{
         //console.log(doc.data())
         const provincia = doc.data()
         html +=
-        `<option value="">${provincia.Provincia1}</option>
-        <option value="">${provincia.Provincia2}</option>`
+        `<option value="Madrid">${provincia.Provincia1}</option>
+        <option value="Segovia">${provincia.Provincia2}</option>`
     })
     selectProvincia.innerHTML = html;
 })
@@ -83,9 +83,22 @@ window.addEventListener('DOMContentLoaded', async () => {
         const comunidad = doc.data()
         html +=
             `<option value="comunidad" disabled selected>Ej: Madrid</option>
-            <option value="">${comunidad.comunidad1}</option>
-        <option value="">${comunidad.comunidad2}</option>`
+            <option value="Madrid">${comunidad.comunidad1}</option>
+        <option value="CastillaYLeon">${comunidad.comunidad2}</option>`
     })
     selectCA.innerHTML = html;
+})
+
+
+const formulario1 = document.getElementById('formulario1')
+formulario1.addEventListener('submit', (e) => {
+    e.preventDefault()
+    const rama = formulario1['rama']
+    const provincia = formulario1['provincia']
+    const no = formulario1['no']
+    const si = formulario1['si']
+    const despues = formulario1['despues']
+
+    savedata(rama.value, provincia.value, no.value, si.value, despues.value)
 })
 

@@ -28,4 +28,7 @@ export const getProvincia = () =>getDocs(collection(db, 'provincias'))
 export const getHorario = () =>getDocs(collection(db, 'horarios'))
 export const getCA = () =>getDocs(collection(db, 'comunidades'))
 
+export const savedata = (rama, provincia, no, si, despues) =>
+    addDoc(collection(db, 'matriculas'), {rama, provincia, no, si, despues});
+
 

@@ -238,25 +238,24 @@
             <h2>Elige el horario y modalidad que más te acomode</h2>
             <div class="form">
                 <form id="formulario2">
-
                 <label class="modalidad" for="modalidad">Modalidad</label><br>
                 <label class="opcion" for="modalidad">(Elige una opción)</label><br>
                 <button class="btnazul online">
-                    <label for="modalidad">Online</label>
-                    <input type="radio" id="modalidad" name="modalidad" value="Online">
+                    <label for="modalidad1">Online</label>
+                    <input type="radio" id="modalidad1" name="modalidad" value="Online">
                 </button>
                 <button class="btnazul semipresencial">
-                    <label for="modalidad">Semipresencial</label>
-                    <input type="radio" id="modalidad" name="modalidad" value="Semipresencial">
+                    <label for="modalidad2">Semipresencial</label>
+                    <input type="radio" id="modalidad2" name="modalidad" value="Semipresencial">
                 </button>
                 <br>
                 <button class="btnazul presencialmañanas">
-                    <label for="modalidad">Presencial mañanas</label>
-                    <input type="radio" id="modalidad" name="modalidad" value="Presencial mañanas">
+                    <label for="modalidad3">Presencial mañanas</label>
+                    <input type="radio" id="modalidad3" name="modalidad" value="Presencial mañanas">
                 </button>
                 <button class="btnazul presencialtardes">
-                    <label for="modalidad">Presencial tardes</label>
-                    <input type="radio" id="modalidad" name="modalidad" value="Presencial tardes">
+                    <label for="modalidad4">Presencial tardes</label>
+                    <input type="radio" id="modalidad4" name="modalidad" value="Presencial tardes">
                 </button>
 
                 <label class="modalidad horario" for="modalidad">Horario</label><br>
@@ -283,8 +282,7 @@
         formulario2.addEventListener('submit', (e) => {
             e.preventDefault()
 
-            console.log('enviando')
         })
-    </script>
+        </script>
 </body>
 </html>

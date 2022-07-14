@@ -204,7 +204,7 @@
                 <div class="Rama">
                     <label for="Rama">Rama</label><br>
                     <label for="Rama">(Selecciona una opcion)</label>
-                    <select name="" id="rama">
+                    <select name="rama" id="rama">
                         <!-- aqui vienen los datos de la BBDD de firestore -->
                     </select><br>
                 </div>
@@ -212,7 +212,7 @@
                 <div class="Provincia">
                     <label for="Provincia">Provincia</label><br>
                     <label for="Provincia">(Selecciona una opcion)</label>
-                    <select name="" id="provincia">
+                    <select name="provincia" id="provincia">
                         <!-- aqui vienen los datos de la BBDD de firestore -->
                     </select>
                 </div>
@@ -226,11 +226,11 @@
                     </svg>
                     <br>
                     <br>
-                    <input type="radio" id="No" name="alumno" value="No">
+                    <input type="radio" id="no" name="alumno" value="No">
                         <label for="No">No</label>
-                    <input type="radio" id="Si" name="alumno" value="Si">
+                    <input type="radio" id="si" name="alumno" value="Si">
                         <label for="Si">Si</label>
-                    <input type="radio" id="despues" name="alumno" value="despues">
+                    <input type="radio" id="despues" name="alumno" value="Si, despues de 2017">
                         <label for="despues">Si, despues de 2017</label>
                 </div>
 
@@ -256,13 +256,11 @@
     <script type="module" src="firebase.js"></script>
     <script type="module" src="index.js"></script>
     <!-- si no tenemos un evento con el prevent default no redirigira a ningun sitio -->
-    <script>
+    <script type="text/javascript">
         const formulario1 = document.getElementById('formulario1')
             formulario1.addEventListener('submit', (e) => {
                 e.preventDefault()
-                const rama = formulario1['rama']
-                const provincia =formulario1['provincia']
-                
+
             })
     </script>
 </body>
