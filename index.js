@@ -88,3 +88,4 @@ window.addEventListener('DOMContentLoaded', async () => {
     })
     selectCA.innerHTML = html;
 })
+

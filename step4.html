@@ -325,6 +325,7 @@
             </div>
             <h2>Datos Personales</h2>
             <div class="form">
+                <form id="formulario4">
                 <div class="nombre">
                     <label for="nombre">Nombre Completo</label>
                     <input name="nombre" id="nombre" type="text" placeholder="Ej: Iñaki Alegre García">
@@ -342,12 +343,21 @@
                     <input name="email" id="email" type="email" placeholder="Ej: correo@correo.com">
                 </div>
                 
-                <a href="step5.html"><button class="btnsiguiente">Siguiente</button></a><br>
+                <button class="btnsiguiente"
+                    onclick="setTimeout( function() { window.location.href = 'step5.html'; }, 1000 );">Siguiente</button>
                 <a class="volver" href="step3.html">Volver atras</a>
+                </form>
             </div>
         </div>
     </div>
     <script type="module" src="firebase.js"></script>
     <script type="module" src="index.js"></script>
+    <script>
+        const formulario4 = document.getElementById('formulario4')
+            formulario4.addEventListener('submit', (e) => {
+                e.preventDefault()
+
+            })
+    </script>
 </body>
 </html>

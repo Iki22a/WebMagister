@@ -189,6 +189,7 @@
             </div>
             <h2>Tu Dirección</h2>
             <div class="form">
+                <form id="formulario5">
                 <div class="comunidad">
                     <label for="comunidad">Comunidad de examen</label><br>
                     <label for="comunidad">(Selecciona una opción)</label><br>
@@ -220,12 +221,21 @@
                 <div class="proteccion">
                     <input type="checkbox">Acepto la <a href=#">Proteccion de datos</a></input>
                 </div>
-                <a href="step6.html"><button class="btnsiguiente">Siguiente</button></a><br>
+                <button class="btnsiguiente"
+                    onclick="setTimeout( function() { window.location.href = 'step6.html'; }, 1000 );">Siguiente</button>
                 <a class="volver" href="step4.html">Volver atras</a>
+                </form>
             </div>
         </div>
     </div>
     <script type="module" src="firebase.js"></script>
     <script type="module" src="index.js"></script>
+    <script>
+        const formulario5 = document.getElementById('formulario5')
+            formulario5.addEventListener('submit', (e) => {
+                e.preventDefault()
+
+            })
+    </script>
 </body>
 </html>

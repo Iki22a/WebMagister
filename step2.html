@@ -237,6 +237,8 @@
             </div>
             <h2>Elige el horario y modalidad que más te acomode</h2>
             <div class="form">
+                <form id="formulario2">
+
                 <label class="modalidad" for="modalidad">Modalidad</label><br>
                 <label class="opcion" for="modalidad">(Elige una opción)</label><br>
                 <button class="btnazul online">
@@ -268,12 +270,21 @@
                 <select class="selecthorario horario3" name="selecthorario" id="selecthorario3">
                     <!-- aqui vienen los datos de la BBDD de firestore -->
                 </select>
-                <a href="step3.html"><button type="submit" class="btnsiguiente">Siguiente</button></a>
+                <button class="btnsiguiente" onclick="setTimeout( function() { window.location.href = 'step3.html'; }, 1000 );">Siguiente</button>
                 <a class="volver" href="step1.html">Volver atras</a>
+                </form>
             </div>
         </div>
     </div>
     <script type="module" src="firebase.js"></script>
     <script type="module" src="index.js"></script>
+    <script>
+    const formulario2 = document.getElementById('formulario2')
+        formulario2.addEventListener('submit', (e) => {
+            e.preventDefault()
+
+            console.log('enviando')
+        })
+    </script>
 </body>
 </html>

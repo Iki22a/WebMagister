@@ -177,6 +177,7 @@
             </div>
             <h2>Selecciona tu Tarifa</h2>
             <div class="form">
+                <form id="formulario3">
                 <label class="tarifas" for="tarifas">Tarifas</label><br>
                 <label class="opcion opcionhorario" for="tarifa">(Elige una opción)</label><br>
                 <button class="btnazul matricula">
@@ -193,12 +194,21 @@
                     <label for="tarifa">Matricula + mensualidad (216 euros)</label>
                     <input type="radio" id="tarifa" name="tarifa" value="Presencial tardes">
                 </button><br>
-                <a href="step4.html"><button class="btnsiguiente">Siguiente</button></a><br>
+                <button class="btnsiguiente"
+                    onclick="setTimeout( function() { window.location.href = 'step4.html'; }, 1000 );">Siguiente</button>
                 <a class="volver" href="step2.html">Volver atras</a>
+                </form>
             </div>
         </div>
     </div>
 <script type="module" src="firebase.js"></script>
 <script type="module" src="index.js"></script>
+<script>
+const formulario3 = document.getElementById('formulario3')
+    formulario3.addEventListener('submit', (e) => {
+        e.preventDefault()
+
+    })
+</script>
 </body>
 </html>

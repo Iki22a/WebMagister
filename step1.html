@@ -199,7 +199,8 @@
                 <div class="line3"></div>
             </div>
             <h2>¿En qué te quieres especializar?</h2>
-            <div class="form" id="form">
+            <div class="form">
+                <form id="formulario1">
                 <div class="Rama">
                     <label for="Rama">Rama</label><br>
                     <label for="Rama">(Selecciona una opcion)</label>
@@ -226,11 +227,11 @@
                     <br>
                     <br>
                     <input type="radio" id="No" name="alumno" value="No">
-                    <label for="No">No</label>
+                        <label for="No">No</label>
                     <input type="radio" id="Si" name="alumno" value="Si">
-                    <label for="Si">Si</label>
-                    <input type="radio" id="Si, despues de 2017" name="alumno" value="Si, despues de 2017">
-                    <label for="Si, despues de 2017">Si, despues de 2017</label>
+                        <label for="Si">Si</label>
+                    <input type="radio" id="despues" name="alumno" value="despues">
+                        <label for="despues">Si, despues de 2017</label>
                 </div>
 
                 <div class="material">
@@ -244,7 +245,9 @@
                     <br>
                     <br>
                     <button class="botonmaterial">Material mes a mes</button>
-                    <a href="step2.html"><button class="btnsiguiente">Siguiente</button></a>
+                    <!-- redirigir al siguiente formulario -->
+                    <button class="btnsiguiente" onclick="setTimeout( function() { window.location.href = 'step2.html'; }, 1000 );">Siguiente</button>
+                </form>
                 </div> 
             </div>
         </div>
@@ -252,5 +255,15 @@
 
     <script type="module" src="firebase.js"></script>
     <script type="module" src="index.js"></script>
+    <!-- si no tenemos un evento con el prevent default no redirigira a ningun sitio -->
+    <script>
+        const formulario1 = document.getElementById('formulario1')
+            formulario1.addEventListener('submit', (e) => {
+                e.preventDefault()
+                const rama = formulario1['rama']
+                const provincia =formulario1['provincia']
+                
+            })
+    </script>
 </body>
 </html>

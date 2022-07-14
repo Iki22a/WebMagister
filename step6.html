@@ -274,6 +274,7 @@
             </div>
             <h2>Forma de pago</h2>
             <div class="form">
+                <form id="formulario6">
                 <p class="pago">¿Cómo prefieres abonar tu primer pago?</p>
                 <button class="btnazul tarjeta">
                     <label for="pago">Tarjeta de credito (Recomendado)</label>
@@ -311,12 +312,21 @@
                         fill="#0BC6FE" />
                 </svg></a>
 
-                <a href="gracias.html"><button class="btnsiguiente">Siguiente</button></a><br>
+                <button class="btnsiguiente"
+                    onclick="setTimeout( function() { window.location.href = 'gracias.html'; }, 1000 );">Siguiente</button>
                 <a class="volver" href="step5.html">Volver atras</a>
+            </form>
             </div>
         </div>
     </div>
     <script type="module" src="firebase.js"></script>
     <script type="module" src="index.js"></script>
+    <script>
+        const formulario6 = document.getElementById('formulario6')
+            formulario6.addEventListener('submit', (e) => {
+                e.preventDefault()
+
+            })
+    </script>
 </body>
 </html>
